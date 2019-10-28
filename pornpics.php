@@ -10,7 +10,7 @@ ini_set('max_execution_time', 0);
   <input style="width:100%; height:100px;" type="text" name="url" value="<?php echo isset($_POST['url']) ? $_POST['url'] : ''; ?>">
   <br><br>
   <input type="submit" value="Submit">
-</form> ;
+</form>
 
 <?php
 if(!empty($_POST['url'])){
